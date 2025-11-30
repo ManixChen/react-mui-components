@@ -1,0 +1,41 @@
+{
+  "name": "react-mui-types",
+  "version": "1.0.1",
+  "description": "TypeScript type definitions for react-mui packages",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "types",
+    "mui"
+  ],
+  "author": "manixchen <manixchensunshine@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManixChen/react-mui-types.git"
+  },
+  "homepage": "https://github.com/ManixChen/react-mui-types#readme",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "typescript": "^5.0.0"
+  }
+}

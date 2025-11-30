@@ -1,0 +1,35 @@
+{
+  "name": "react-mui-components-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for React Material-UI component libraries",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:form": "cd packages/form && npm run build",
+    "build:request": "cd packages/request && npm run build",
+    "build:table": "cd packages/table && npm run build",
+    "build:loading": "cd packages/loading && npm run build",
+    "build:richtext": "cd packages/richtext && npm run build"
+  },
+  "keywords": [
+    "react",
+    "mui",
+    "material-ui",
+    "monorepo",
+    "components"
+  ],
+  "author": "manixchen <manixchensunshine@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManixChen/react-mui-components.git"
+  },
+  "homepage": "https://github.com/ManixChen/react-mui-components#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+

@@ -1,0 +1,58 @@
+{
+  "name": "react-mui-auto-table",
+  "version": "1.0.1",
+  "description": "Table component for React with Material-UI, based on material-react-table",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "mui",
+    "material-ui",
+    "material-react-table",
+    "data-table"
+  ],
+  "author": "manixchen <manixchensunshine@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManixChen/react-mui-auto-table.git"
+  },
+  "homepage": "https://github.com/ManixChen/react-mui-auto-table#readme",
+  "peerDependencies": {
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "material-react-table": "^2.13.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/lodash": "^4.17.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "material-react-table": "^2.13.3",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "typescript": "^5.0.0"
+  }
+}

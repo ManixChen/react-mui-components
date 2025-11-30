@@ -1,0 +1,58 @@
+{
+  "name": "react-mui-richtext",
+  "version": "1.0.2",
+  "description": "Rich text editor component for React with Material-UI, based on React Quill",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "richtext",
+    "editor",
+    "mui",
+    "material-ui",
+    "react-quill",
+    "wysiwyg"
+  ],
+  "author": "manixchen <manixchensunshine@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManixChen/react-mui-richtext.git"
+  },
+  "homepage": "https://github.com/ManixChen/react-mui-richtext#readme",
+  "peerDependencies": {
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "react-easy-crop": "^5.0.0",
+    "react-quill": "^2.0.0",
+    "quill-emoji": "^0.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.0.0",
+    "typescript": "^5.0.0"
+  }
+}
