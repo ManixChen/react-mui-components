@@ -15,7 +15,7 @@ import {
   DynamicDialogProvider,
   useModal,
   SimpleDialog,
-} from 'react-mui-dialog';
+} from 'react-mui-vdialog';
 
 // 示例 1: 基本确认对话框
 function BasicConfirmExample() {
@@ -242,7 +242,7 @@ export default function DialogExamplePage() {
         对话框组件示例
       </Typography>
       <Typography variant="body2" color="text.secondary" paragraph sx={{ mb: 4 }}>
-        这个示例展示了如何使用 react-mui-dialog 创建各种类型的对话框。
+        这个示例展示了如何使用 react-mui-vdialog 创建各种类型的对话框。
       </Typography>
 
       <Paper elevation={2} sx={{ p: 4, mb: 4 }}>
@@ -288,7 +288,7 @@ export default function DialogExamplePage() {
         </Typography>
         <Box sx={{ bgcolor: '#f5f5f5', p: 2, borderRadius: 1, overflow: 'auto' }}>
           <Box component="pre" sx={{ fontSize: '0.875rem', m: 0 }}>
-            {`import { ConfirmDialog, ConfirmProvider, useConfirm } from 'react-mui-dialog';
+            {`import { ConfirmDialog, ConfirmProvider, useConfirm } from 'react-mui-vdialog';
 
 // 基本使用
 const [open, setOpen] = useState(false);

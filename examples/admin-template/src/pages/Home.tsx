@@ -58,7 +58,7 @@ export default function HomePage() {
       path: '/examples/richtext',
     },
     {
-      name: 'react-mui-dialog',
+      name: 'react-mui-vdialog',
       description: '对话框组件，支持确认对话框和动态对话框',
       path: '/examples/dialog',
     },

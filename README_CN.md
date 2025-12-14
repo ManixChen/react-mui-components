@@ -28,12 +28,12 @@ npm install react-mui-vgform
 npm install react-mui-auto-table
 ```
 
-### 💬 [react-mui-dialog](./packages/dialog)
+### 💬 [react-mui-vdialog](./packages/dialog)
 
 独立的对话框组件库，支持确认对话框和动态对话框。
 
 ```bash
-npm install react-mui-dialog
+npm install react-mui-vdialog
 ```
 
 ### 🔷 react-mui-types (即将推出)
@@ -78,13 +78,13 @@ import { FormItemList } from "react-mui-vgform";
 ### 组合使用
 
 ```bash
-npm install react-auto-axios react-mui-vgform react-mui-dialog
+npm install react-auto-axios react-mui-vgform react-mui-vdialog
 ```
 
 ```typescript
 import { RequestClient } from "react-auto-axios";
 import { FormItemList } from "react-mui-vgform";
-import { ConfirmProvider, useConfirm } from "react-mui-dialog";
+import { ConfirmProvider, useConfirm } from "react-mui-vdialog";
 ```
 
 ## 开发

@@ -1,6 +1,7 @@
 {
-  "name": "react-mui-dialog",
+  "name": "react-mui-vdialog",
   "version": "1.0.1",
+  "type": "module",
   "description": "Dialog components for React with Material-UI, supports confirm dialogs and dynamic dialogs",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -28,15 +29,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ManixChen/react-mui-dialog.git"
+    "url": "git+https://github.com/ManixChen/react-mui-vdialog.git"
   },
-  "homepage": "https://github.com/ManixChen/react-mui-dialog#readme",
+  "homepage": "https://github.com/ManixChen/react-mui-vdialog#readme",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "@mui/material": "^5.0.0",
     "@mui/icons-material": "^5.0.0",
-    "@mui/lab": "^5.0.0"
+    "@mui/lab": ">=5.0.0-alpha.0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -53,4 +54,3 @@
     "typescript": "^5.0.0"
   }
 }
-
