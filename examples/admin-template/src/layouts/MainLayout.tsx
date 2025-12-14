@@ -24,6 +24,7 @@ import TableChartIcon from '@mui/icons-material/TableChart';
 import HttpIcon from '@mui/icons-material/Http';
 import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
 import TextFieldsIcon from '@mui/icons-material/TextFields';
+import DialogIcon from '@mui/icons-material/QuestionAnswer';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
@@ -43,6 +44,7 @@ const menuItems: MenuItem[] = [
   { text: '请求示例', icon: <HttpIcon />, path: '/examples/request' },
   { text: '加载示例', icon: <HourglassEmptyIcon />, path: '/examples/loading' },
   { text: '富文本示例', icon: <TextFieldsIcon />, path: '/examples/richtext' },
+  { text: '对话框示例', icon: <DialogIcon />, path: '/examples/dialog' },
 ];
 
 export default function MainLayout() {

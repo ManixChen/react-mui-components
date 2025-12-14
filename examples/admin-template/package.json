@@ -22,7 +22,9 @@
     "react-mui-auto-table": "^1.0.1",
     "react-mui-loading": "^1.0.1",
     "react-mui-richtext": "^1.0.2",
-    "react-mui-types": "^1.0.1"
+    "react-mui-dialog": "^1.0.1",
+    "react-mui-types": "^1.0.1",
+    "@mui/lab": "^5.0.0-alpha.170"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

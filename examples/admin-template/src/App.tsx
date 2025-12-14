@@ -7,6 +7,7 @@ import TableExamplePage from './pages/examples/TableExample';
 import RequestExamplePage from './pages/examples/RequestExample';
 import LoadingExamplePage from './pages/examples/LoadingExample';
 import RichTextExamplePage from './pages/examples/RichTextExample';
+import DialogExamplePage from './pages/examples/DialogExample';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="request" element={<RequestExamplePage />} />
           <Route path="loading" element={<LoadingExamplePage />} />
           <Route path="richtext" element={<RichTextExamplePage />} />
+          <Route path="dialog" element={<DialogExamplePage />} />
         </Route>
       </Route>
     </Routes>

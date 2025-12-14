@@ -57,6 +57,11 @@ export default function HomePage() {
       description: '富文本编辑器，基于 React Quill',
       path: '/examples/richtext',
     },
+    {
+      name: 'react-mui-dialog',
+      description: '对话框组件，支持确认对话框和动态对话框',
+      path: '/examples/dialog',
+    },
   ];
 
   return (
